@@ -9,7 +9,7 @@
  * A controller to call the default internal uri and append the profiler to it.
  * @author gabrielgiannattasio
  */
-class Controller_AttachProfiler_Profiler extends Controller {
+class AttachProfiler_Controller_Profiler extends Controller {
 
 	protected $_profiler = FALSE;
 	
@@ -35,6 +35,7 @@ class Controller_AttachProfiler_Profiler extends Controller {
 		// Load the default request, to apply the profiler after all controller
 		$request = Request::factory( $this->request->param("route") );
 		$response = $request->execute();
+		
 		$this->response->body($response);
 	}
 	
