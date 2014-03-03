@@ -1,5 +1,6 @@
-
 # How to use
+
+[![Analytics](https://ga-beacon.appspot.com/UA-24619548-7/Kohana-Attach-Profiler/readme)](https://github.com/igrigorik/ga-beacon)
 
 * Install the module
 * Access http://your-server/profiler/default_route
